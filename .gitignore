@@ -1,4 +1,4 @@
-customer_data.csv
-customer_financials.csv
-loan_data.csv
-loan_deliquencies.csv
+data/customer_data.csv
+data/customer_financials.csv
+data/loan_data.csv
+data/loan_deliquencies.csv
