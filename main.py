@@ -11,15 +11,15 @@ import joblib
 
 # Functions
 def get_model():
-    return joblib.load("../model/calib_model.pkl")
+    return joblib.load("model/calib_model.pkl")
 
 
 def get_scaler():
-    return joblib.load("../model/scaler.joblib")
+    return joblib.load("model/scaler.joblib")
 
 
 def get_imputer():
-    return joblib.load("../model/imputer.joblib")
+    return joblib.load("model/imputer.joblib")
 
 
 # Layout
