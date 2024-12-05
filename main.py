@@ -10,18 +10,16 @@ import joblib
 
 
 # Functions
-def get_model(calib=True):
-    if calib:
-        return joblib.load("calib_model.pkl")
-    return joblib.load("model.pkl")
+def get_model():
+    return joblib.load("../model/calib_model.pkl")
 
 
 def get_scaler():
-    return joblib.load("scaler.joblib")
+    return joblib.load("../model/scaler.joblib")
 
 
 def get_imputer():
-    return joblib.load("imputer.joblib")
+    return joblib.load("../model/imputer.joblib")
 
 
 # Layout
@@ -86,7 +84,7 @@ st.markdown(
 
 scaler = get_scaler()
 imputer = get_imputer()
-model = get_model(calib=True)
+model = get_model()
 
 st.markdown(
     """
