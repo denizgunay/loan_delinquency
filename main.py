@@ -598,7 +598,7 @@ religion = right_part4.selectbox(
 
 
 # age
-age = right_part4.number_input(
+age = left_part4.number_input(
     "Please enter the age variable:", min_value=18, max_value=70, step=1, value=35
 )
 
@@ -756,7 +756,7 @@ user["zero_account"] = (
 ).astype(int)
 
 
-if left_part4.button("Predict!"):
+if st.button("Predict!"):
     prediction = model.predict_proba(user)[:, 1]
     prediction = round(prediction[0] * 100, 2)
     st.success(f"This customer has a {prediction}% probability of payment delinquency.")
