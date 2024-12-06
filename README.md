@@ -1,5 +1,5 @@
 # Loan Delinquency Prediction Project
-
+NOTE: The presentation is not ready yet.
 ## Overview
 This project focuses on predicting **loan delinquency**, specifically estimating the probability of borrowers being at least 1 month overdue on their payments. The system is designed to help financial institutions assess risk and make informed decisions.
 
@@ -15,6 +15,6 @@ To explore and test the model interactively, visit the following link:
 [Loan Delinquency Prediction App](https://dnzgny-loandelinquency.streamlit.app/)
 
 ### Docker Container
-For deploying and running the application using Docker, please refer to the instructions at:
+For deploying and running the application using Docker, please use the following link:
 
-[Docker Deployment Guide](www.xxx.com)
+[Docker](www.xxx.com)
