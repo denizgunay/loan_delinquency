@@ -2,3 +2,4 @@ data/customer_data.csv
 data/customer_financials.csv
 data/loan_data.csv
 data/loan_deliquencies.csv
+catboost_info

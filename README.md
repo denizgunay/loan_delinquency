@@ -1,5 +1,5 @@
 # Loan Delinquency Prediction Project
-NOTE: The presentation is not ready yet.
+
 ## Overview
 This project focuses on predicting **loan delinquency**, specifically estimating the probability of borrowers being at least 1 month overdue on their payments. The system is designed to help financial institutions assess risk and make informed decisions.
 
